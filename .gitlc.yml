@@ -1,0 +1,4 @@
+code_style:
+  default:
+    - codespell
+    - drupal
