@@ -1,7 +1,2 @@
 # test
-testing gitlc
-
-### test!
-test1
-  
-f
+We are testing auto linking by puting #N
