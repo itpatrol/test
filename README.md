@@ -6,4 +6,3 @@ test
 ddd
 
 tes
-d
