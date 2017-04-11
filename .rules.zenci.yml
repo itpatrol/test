@@ -6,6 +6,11 @@ issues:
       user: Gormartsen
     then: 
       label: bug
+  'assign gor':
+    if:
+      label: bug
+    then:
+      assign: Gormartsen
   'assign support':
     do: 
       assignee: minimum_open()
