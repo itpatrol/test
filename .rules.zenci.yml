@@ -1,0 +1,14 @@
+issues:
+  'label bug': 
+    if: 
+      title: bug
+      from: any
+      user: Gormartsen
+    then: 
+      label: bug
+  'assign support':
+    do: 
+      assignee: random()
+      assignee: minimum_open()
+      assignee: Gormartsen
+      label: "New request"
