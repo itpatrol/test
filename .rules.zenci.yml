@@ -33,7 +33,7 @@ issues:
           - radontt
           - roman-dezhin
           - sibero
-   'random developer':
+  'random developer':
     do:
       assign:
         random: Developers
