@@ -22,3 +22,19 @@ issues:
         - invalid
         - question
         - test2
+  'random collaborator':
+    do:
+      assign:
+        random: any
+  'random list':
+    do:
+      assign:
+        random:
+          - radontt
+          - roman-dezhin
+          - sibero
+   'random developer':
+    do:
+      assign:
+        random: Developers
+             
