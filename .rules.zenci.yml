@@ -1,40 +1,34 @@
 issues:
-  'label bug, assign zenci-bot': 
-    if: 
-      action: opened
-      title: bug
-    then: 
-      label: bug
-      assign: 'zenci-bot'
-  'assign gor if label bug':
-    if:
-      action: labeled
-      label: bug
-    then:
-      assign: Gormartsen
-  'assign support':
-    do: 
-      label: "New request"
-  'multiple labels':
-    do:
-      label:
-        - duplicate
-        - invalid
-        - question
-        - test2
-  'random collaborator':
+  'minimum open issues collaborator':
     do:
       assign:
-        random: any
-  'random list':
+        minimum:
+          state: open
+          type: issues
+  'minimum list':
     do:
       assign:
-        random:
+        minimum:
           - radontt
           - roman-dezhin
           - sibero
-  'random developer':
+  'minimum issues Developers':
     do:
       assign:
-        random: Developers
+        minimum: Developers
+  'minimum open issues in Develpers':
+    do:
+      assign:
+        minimum:
+          state: open
+          type: issues
+          team: Developers
+'minimum open issues with label bug in Develpers':
+    do:
+      assign:
+        minimum:
+          state: open
+          type: issues
+          label: bug
+          team: Developers
              
