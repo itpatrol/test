@@ -23,7 +23,7 @@ issues:
           state: open
           type: issues
           team: Developers
-'minimum open issues with label bug in Develpers':
+  'minimum open issues with label bug in Develpers':
     do:
       assign:
         minimum:
