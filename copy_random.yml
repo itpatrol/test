@@ -1,0 +1,40 @@
+issues:
+  'label bug, assign zenci-bot': 
+    if: 
+      action: opened
+      title: bug
+    then: 
+      label: bug
+      assign: 'zenci-bot'
+  'assign gor if label bug':
+    if:
+      action: labeled
+      label: bug
+    then:
+      assign: Gormartsen
+  'assign support':
+    do: 
+      label: "New request"
+  'multiple labels':
+    do:
+      label:
+        - duplicate
+        - invalid
+        - question
+        - test2
+  'random collaborator':
+    do:
+      assign:
+        random: any
+  'random list':
+    do:
+      assign:
+        random:
+          - radontt
+          - roman-dezhin
+          - sibero
+  'random developer':
+    do:
+      assign:
+        random: Developers
+             
