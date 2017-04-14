@@ -2,6 +2,9 @@ issues:
   'minimum open issues collaborator':
     do:
       assign:
-        minimum: Developers
+        minimum:
+          state: open
+          type: issue
+          team: Developers
 
              
