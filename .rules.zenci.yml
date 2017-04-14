@@ -5,30 +5,5 @@ issues:
         minimum:
           state: open
           type: issues
-  'minimum list':
-    do:
-      assign:
-        minimum:
-          - radontt
-          - roman-dezhin
-          - sibero
-  'minimum issues Developers':
-    do:
-      assign:
-        minimum: Developers
-  'minimum open issues in Develpers':
-    do:
-      assign:
-        minimum:
-          state: open
-          type: issue
-          team: Developers
-  'minimum open issues with label bug in Develpers':
-    do:
-      assign:
-        minimum:
-          state: open
-          type: issue
-          label: bug
-          team: Developers
+
              
