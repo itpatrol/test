@@ -3,7 +3,8 @@ issues:
     do:
       assign:
         minimum:
-          state: open
-          type: issues
+          - radontt
+          - roman-dezhin
+          - sibero
 
              
