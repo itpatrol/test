@@ -2,9 +2,6 @@ issues:
   'minimum open issues collaborator':
     do:
       assign:
-        minimum:
-          - radontt
-          - roman-dezhin
-          - sibero
+        minimum: Developers
 
              
