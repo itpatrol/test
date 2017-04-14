@@ -6,7 +6,8 @@ issues:
           state: open
           type: issue
           team: Developers
-      comment: Dear user!
+      comment: |
+               Dear user!
                Please read [Developer docs](https://developer.github.com)
                Please enjoy this pic!
                ![pic](https://i.ytimg.com/vi/qh7LLydY8eo/maxresdefault.jpg)
