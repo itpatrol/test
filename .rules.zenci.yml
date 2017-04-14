@@ -6,5 +6,11 @@ issues:
           state: open
           type: issue
           team: Developers
-
+  'minimum list':
+    do:
+      assign:
+        minimum:
+          - radontt
+          - roman-dezhin
+          - sibero
              
