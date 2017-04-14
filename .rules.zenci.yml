@@ -6,11 +6,12 @@ issues:
           state: open
           type: issue
           team: Developers
-  'minimum list':
-    do:
-      assign:
-        minimum:
-          - radontt
-          - roman-dezhin
-          - sibero
+      comment: Dear user!
+               Please read [Developer docs](https://developer.github.com)
+               Please enjoy this pic!
+               ![pic](https://i.ytimg.com/vi/qh7LLydY8eo/maxresdefault.jpg)
+               
+               Best regards,
+               Support team.
+
              
